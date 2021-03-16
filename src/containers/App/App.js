@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.scss";
-import Todos from "container/Todo";
+import Todos from "../Todo";
 
 const App = () => {
   return (

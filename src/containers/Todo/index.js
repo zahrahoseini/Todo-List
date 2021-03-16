@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { ContentLayout, Overlay } from "components/layout";
-import { TodoAdd, Summary } from "components/Todo";
-import { rootSelector, todosSummarySelector } from "store/selectors";
-import toggleView from "store/actions/root";
-import TodosAll from "./MyDay";
-import TodosNew from "./New";
+// import { ContentLayout, Overlay } from "components/layout";
+import { TodoAdd, Summary } from "/..";
+// import { rootSelector, todosSummarySelector } from "store/selectors";
+// import toggleView from "store/actions/root";
+// import TodosAll from "./MyDay";
+// import TodosNew from "./New";
 
 const mapStateToProps = (state) => ({
   ...rootSelector(state),
